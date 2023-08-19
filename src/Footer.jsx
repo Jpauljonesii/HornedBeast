@@ -7,4 +7,3 @@ export default class Footer extends Component {
     )
   }
 }
-export default Header;

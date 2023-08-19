@@ -25,4 +25,4 @@ export default class Gallery extends Component {
     );
   }
 }
-export default Gallery;
+
