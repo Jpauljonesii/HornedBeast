@@ -9,24 +9,22 @@ Currently, two official plugins are available:
 
 ## Time Estimates
 
-Number and name of feature: Feature #1 - Display Images 
+### Number and name of feature: Feature #1 - Display Images
 
 Estimate of time needed to complete: 30
 
-Start time: 2:45 
+Start time: 2:45 pm  
 
-Finish time: 3:45
+Finish time: 3:45 pm
 
 Actual time needed to complete: 1 hour
 
-
-Number and name of feature: Feature #2 - Allow Users to Favorite Individual Beasts 
+### Number and name of feature: Feature #2 - Allow Users to Favorite Individual Beasts
 
 Estimate of time needed to complete: 1 hour
 
-Start time: 3:50 
+Start time: 3:50 pm
 
-Finish time: 3:45
+Finish time: 5:20 pm
 
-Actual time needed to complete: 1 hour
-
+Actual time needed to complete: 1.5 hours
