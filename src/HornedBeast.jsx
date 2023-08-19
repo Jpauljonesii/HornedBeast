@@ -15,3 +15,4 @@ export default class HornedBeast extends Component {
     );
   }
 }
+export default HornedBeast;
