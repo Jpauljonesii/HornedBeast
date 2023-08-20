@@ -1,12 +1,20 @@
 import React, { Component } from 'react'
+
 import './App.css'  
 import './index.css'
+import 'bootstrap/dist/css/bootstrap.css';
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+
 import Gallery from './Gallery'
 import Header from './Header'
 import Footer from './Footer'
 export default class App extends Component {
   render() {
   
+    
     return (
       <>
         <div>

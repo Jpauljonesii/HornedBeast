@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import HornedBeast from './HornedBeast';
 import HornedBeastArray from './data.json';
 
+
 export default class Gallery extends Component {
   render() {
     return (
