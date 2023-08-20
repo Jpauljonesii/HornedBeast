@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Gallery from './Gallery'
+import Image from 'react-bootstrap/Image';
+
 
 export default class HornedBeast extends Component {
   constructor(props) {
@@ -18,11 +20,14 @@ this.setState({numberOfFavorites:this.state.numberOfFavorites + 1 })
       <>
         <div>
           <h2>{this.props.title}</h2>
-          <img
+          <Image
             alt=""
             onClick={this.handleClick}
             src={this.props.image_url}
-          ></img>
+            fluid
+            roundedCircle
+            
+          ></Image>
           <p>{this.props.description}</p>
            {this.state.numberOfFavorites !==0 &&<>
            <p>❤️️</p> 
