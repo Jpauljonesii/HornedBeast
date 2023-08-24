@@ -4,7 +4,7 @@ import HornedBeastArray from './data.json';
 
 
 export default class Gallery extends Component {
-  render() {
+    render() {
     return (
       <>
         <div>Gallery</div>
