@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Gallery from './Gallery'
 import Image from 'react-bootstrap/Image';
+//import data.json , using map will return methods ,
 
 
 export default class HornedBeast extends Component {
