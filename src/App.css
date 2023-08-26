@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+h2 {
+  cursor: pointer;
+  display: inline-block;
+}
+
+h2:hover {
+/* border: 1px black solid ; */
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}

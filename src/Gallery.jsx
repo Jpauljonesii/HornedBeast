@@ -14,13 +14,17 @@ export default class Gallery extends Component {
         <div>Gallery</div>
         {data.map((value) => (
           <HornedBeast
+          openModal={this.props.handleShow}
             image_url={value.image_url}
             title={value.title}
             description={value.description}
             key={value._id}
+            viewBeast={this.props.viewBeast}
+            handleShow={this.props.handleShow}
+            
           />
         ))}
-        ;
+
       </>
     );
   }

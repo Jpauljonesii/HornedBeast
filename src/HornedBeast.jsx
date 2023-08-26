@@ -20,12 +20,13 @@ handleModal = () => {
     title: this.props.title,
     description: this.props.description,
   })
+  this.props.handleShow ();
 }
-  render() {
-    const hornedBeastImages = this.props.image_url;
+render() {
+   
     return (
       <>
-        <div>
+        <div className='wrapper'>
           <h2 onClick={this.handleModal}>{this.props.title}</h2>
           <Image
             alt=""
