@@ -19,18 +19,23 @@ constructor(props){
 }
  handleClose = () => this.setState({openModal: false});
  handleShow = () => this.setState({openModal: true});
+ viewBeast = (Beasts) => this.setState({ selectedBeast: Beasts});
   
   render() {
   
     
     return (
       <>
-      <SelectedBeast show = {this.state.openModal} handleClose = {this.handleClose}/>
+      <SelectedBeast show = {this.state.openModal} handleClose = {this.handleClose} Beast = {this.selectedBeast}/>
         <div>
       
           <Header></Header>
-          <Gallery></Gallery>
+          <Gallery 
+        handleShow={this.handleShow}
+        viewBeast={this.viewBeast}
+        />          
           <Footer></Footer>
+        
           </div>
         <h1></h1>
       </>
