@@ -19,6 +19,7 @@ handleModal = () => {
   this.props.viewBeast({
     title: this.props.title,
     description: this.props.description,
+    src: this.props.image_url,
   })
   this.props.handleShow ();
 }
