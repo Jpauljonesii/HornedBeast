@@ -2,6 +2,8 @@ import { Component } from 'react'
 
 import Image from 'react-bootstrap/Image';
 
+
+
 //import data.json , using map will return methods ,
 
 
@@ -10,6 +12,7 @@ export default class HornedBeast extends Component {
     super(props);
     this.state = {
       numberOfFavorites: 0,
+     
     };
   }
   handleClick = ()=>{
@@ -23,11 +26,14 @@ handleModal = () => {
   })
   this.props.handleShow ();
 }
+
+
 render() {
    
     return (
       <>
-        <div className='wrapper'>
+        
+        <div className="wrapper">
           <h2 onClick={this.handleModal}>{this.props.title}</h2>
           <Image
             alt=""
@@ -35,13 +41,14 @@ render() {
             src={this.props.image_url}
             fluid
             roundedCircle
-            
           ></Image>
           <p>{this.props.description}</p>
-           {this.state.numberOfFavorites !==0 &&<>
-           <p>❤️️</p> 
-          <p>Number of Likes: {this.state.numberOfFavorites}</p>
-           </>}
+          {this.state.numberOfFavorites !== 0 && (
+            <>
+              <p>❤️️</p>
+              <p>Number of Likes: {this.state.numberOfFavorites}</p>
+            </>
+          )}
         </div>
       </>
     );
