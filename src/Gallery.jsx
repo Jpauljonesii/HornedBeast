@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import HornedBeast from './HornedBeast';
-import data from './data.json';
+
 
 
 export default class Gallery extends Component {
@@ -12,7 +12,7 @@ export default class Gallery extends Component {
     return (
       <>
         <div>Gallery</div>
-        {data.map((value) => (
+        {this.props.data.map((value) => (
           <HornedBeast
           openModal={this.props.handleShow}
             image_url={value.image_url}
