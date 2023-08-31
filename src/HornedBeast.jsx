@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import Gallery from './Gallery'
+import { Component } from 'react'
+
 import Image from 'react-bootstrap/Image';
 
 //import data.json , using map will return methods ,

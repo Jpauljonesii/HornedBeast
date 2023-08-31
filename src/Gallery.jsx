@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import HornedBeast from './HornedBeast';
 import data from './data.json';
 
